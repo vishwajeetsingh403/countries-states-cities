@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+
+  .countriesList {
+    min-width: 30%;
+    .header {
+      font-weight: bold;
+    }
+
+    .inputEle {
+      width: 95%;
+      padding: 0.6rem 1rem;
+      margin: auto;
+      border: 1px solid #e2e8f0;
+    }
+  }
+
+  table {
+    border: 0.2px solid #e2e8f0;
+    border-collapse: collapse;
+  }
+  table tr td {
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid #e2e8f0;
+    padding: 0.5rem 0;
+  }
+
+  tbody {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .innerData {
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    align-items: center;
+
+    .roundedBorders {
+      font-size: 0.8rem;
+      background-color: #e2e8f0;
+      border-radius: 0.6rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-weight: 500;
+      padding: 0.5rem;
+    }
+
+    .innerText {
+      width: 70%;
+    }
+
+    i {
+      cursor: pointer;
+    }
+
+    .fa {
+      transform: scale(1.4, 1.4);
+      color: #d53f8c;
+      --text-opacity: 1;
+    }
+
+    div:nth-child(1) {
+      display: flex;
+      justify-content: space-between;
+      min-width: 70%;
+      align-items: center;
+    }
+  }
+}
